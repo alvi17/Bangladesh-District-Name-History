@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:id="@+id/frame"
+    tools:context=".MainActivity"
+    android:background="#9bacf2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:text="বাংলাদেশ আটটি প্রধান প্রশাসনিক অঞ্চলে বিভক্ত যাদের বাংলায় বিভাগ হিসাবে অভিহিত করা হয়। প্রত্যেকটি বিভাগের নাম ওই অঞ্চলের প্রধান শহরের নামে নামকরণ করা হয়েছে। বাংলাদেশের বিভাগ গুলো হল:"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="\nঢাকা বিভাগ\nচট্টগ্রাম বিভাগ\nরাজশাহী বিভাগ\nখুলনা বিভাগ\nবরিশাল বিভাগ\nসিলেট বিভাগ\nরংপুর বিভাগ\nময়মনসিংহ বিভাগ\n"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="এদের মধ্যে ময়মনসিংহ বিভাগ নবীনতম বিভাগ এবং ২০১৫ সালে ১৪ সেপ্টেম্বর
+        প্রথম ময়মনসিংহ  হিসাবে ঘোষনা দেয়া হয়। প্রত্যেকটি বিভাগ কিছু সংখ্যক জেলা নিয়ে গঠিত; জেলাগুলো আবার কয়েকটি উপজেলায় বিভক্ত।"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|center_vertical" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_back"
+            android:id="@+id/button1"
+            android:textColor="#000"
+            android:padding="16dp"
+            android:layout_marginTop="15dp"
+            android:text="বিস্তারিত জানতে \n ক্লিক করুন"/>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
